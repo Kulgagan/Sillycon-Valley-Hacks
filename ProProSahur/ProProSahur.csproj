@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <Resource Include="Assets\tung-tung-sahur.png" />
+    <Resource Include="Assets\frame_000.png" />
+    <Resource Include="Assets\frame_001.png" />
+    <Resource Include="Assets\frame_002.png" />
+    <Resource Include="Assets\frame_003.png" />
+    <Resource Include="Assets\frame_004.png" />
+    <Resource Include="Assets\frame_005.png" />
+    <Resource Include="Assets\frame_006.png" />
+    <Resource Include="Assets\frame_007.png" />
+    <Resource Include="Assets\frame_008.png" />
+    <Resource Include="Assets\frame_009.png" />
+    <Resource Include="Assets\frame_010.png" />
+    <Resource Include="Assets\frame_011.png" />
+    <Resource Include="Assets\frame_012.png" />
+    <Resource Include="Assets\frame_013.png" />
+    <Resource Include="Assets\frame_014.png" />
+    <Resource Include="Assets\frame_015.png" />
+    <Resource Include="Assets\frame_016.png" />
+    <Resource Include="Assets\frame_017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Speech" Version="8.0.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>ProProSahur</AssemblyName>
+    <RootNamespace>ProProSahur</RootNamespace>
+  </PropertyGroup>
+
+</Project>
